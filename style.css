@@ -70,3 +70,35 @@ textarea {
     padding: 10px;
     font-size: 1em;
 }
+
+main {
+    margin: 20px;
+    text-align: left;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.news-title {
+    font-weight: bold;
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.news-author {
+    font-size: 0.9em;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.news-content {
+    font-size: 1em;
+    color: black;
+    line-height: 1.5;
+}
