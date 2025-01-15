@@ -102,3 +102,25 @@ main {
     color: black;
     line-height: 1.5;
 }
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px; /* Optional: remove this line for a perfect square */
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #555;
+}
